@@ -1,1 +1,1 @@
-worker: javac PiotrBot2.java
+web: java -jar target/PiotrBot2.jar
