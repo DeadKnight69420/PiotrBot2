@@ -1,1 +1,1 @@
-web: java -jar target/PiotrBot2.jar
+web: java -jar target/PiotrBot2
