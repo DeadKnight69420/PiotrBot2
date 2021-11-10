@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PiotrBot2  {
-    public static final class LavaPlayerAudioProvider extends AudioProvider {
+    static final class LavaPlayerAudioProvider extends AudioProvider {
 
         private final AudioPlayer player;
         private final MutableAudioFrame frame = new MutableAudioFrame();
@@ -50,7 +50,7 @@ public class PiotrBot2  {
             return didProvide;
         }
     }
-    public static final class TrackScheduler implements AudioLoadResultHandler {
+    static final class TrackScheduler implements AudioLoadResultHandler {
 
         private final AudioPlayer player;
 
