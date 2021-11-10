@@ -1,1 +1,1 @@
-web: java -classpath src/main/java/ com.ramxd.PiotrBot2.PiotrBot2
+web: java -classpath src/main/java/com/ramxd/PiotrBot2/ PiotrBot2.class
